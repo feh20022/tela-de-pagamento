@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 2px solid black;
+    height: 99.55vh;
+    background-image: linear-gradient(to top, #2679BD, #0084EF);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+main {
+    display: flex;
+}
+
+.img__dinheiro {
+    width: 35px;
+    padding: 15px;
+}
+
+.header__Fical {
+    flex-direction: column;
+}
+
+.header__site {
+    padding: 15px;
+} 
+
+.main__pagamento {
+    display: flex;
+    width: 550px;
+}
+.main__pagamento__opcao {
+    justify-content: column;
+    padding: 35px;
+    font-size: 20.4px;
+}
+
+strong {
+    font-size: 18px;
+    color: rgb(209, 0, 0);
+}
+
+.main__pagamento__opcao__img {
+    width: 17px;
+    padding: 0 3px;
+}
+
+.mai__2__flex {
+    display: flex;
+    margin-left: 40px;
+}
+
+.mai__2 {
+    background-color: white;
+    color: black;
+    align-items: center;
+    
+}
+
+.mai__2__nota {
+    flex-direction: column;
+    width: 650px;
+    text-align: center;
+    height: 450px;
+    font-size: 23px;
+}
+
+.p__texto {
+    -webkit-margin-before: 10px;
+    -webkit-margin-after: 10px;
+}
+
+.main__pagamento__venda {
+    display: flex;
+    flex-direction: column;
+    height: 291px;
+    justify-content: flex-end;
+}
+
+.main__pagamento__venda__flex {
+    display: flex;
+    margin-left: 44px;
+}  
+
+.main__pagamento__flex {
+    display: flex;
+    justify-content: center;
+}
+
+.main__pagamento__venda__div {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    width: 500px;
+    border-radius: 8px;
+    font-size: 50px;
+    padding: 21.5px 0;
+}
+
+.mai__3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.mai__3__1__botao {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    width: 350px;
+    border-radius: 8px;
+    font-size: 30px;
+    padding: 21.5px 0;
+}
+
+.mai__3__1__flex {
+    display: flex;
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+
+.mai__4 {
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 97%;
+    border-radius: 23px;
+}
+
+.mai__4__texto {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.mai__4__textos {
+    display: flex;
+    margin-left: 110px;
+    gap: 220px;
+    padding-top: 10px;
+}
+
+.mai__4__flex {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.red {
+    color: red;
+}
